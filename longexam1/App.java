@@ -11,7 +11,7 @@ public class App {
         // 5. Each time you visit a location, call the checkBudgetMethod
 
         Locations boracay = new Boracay();
-        Locations batanes = new Zambales();
+        Locations zambales = new Zambales();
         Locations cebu = new Cebu();
         Locations elNido = new ElNido();
         Locations tokyo = new Tokyo();
@@ -20,7 +20,7 @@ public class App {
         Tourist tourist = new Me();
 
         boracay.accept(tourist);
-        batanes.accept(tourist);
+        zambales.accept(tourist);
         cebu.accept(tourist);
         elNido.accept(tourist);
         tokyo.accept(tourist);
